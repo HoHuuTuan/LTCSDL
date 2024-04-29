@@ -1,0 +1,15 @@
+D:\QTHCSDL\KhachHangs\KhachHangs\bin\Debug\KhachHangs.exe.config
+D:\QTHCSDL\KhachHangs\KhachHangs\bin\Debug\KhachHangs.exe
+D:\QTHCSDL\KhachHangs\KhachHangs\bin\Debug\KhachHangs.pdb
+D:\QTHCSDL\KhachHangs\KhachHangs\bin\Debug\EntityFramework.dll
+D:\QTHCSDL\KhachHangs\KhachHangs\bin\Debug\EntityFramework.SqlServer.dll
+D:\QTHCSDL\KhachHangs\KhachHangs\bin\Debug\EntityFramework.xml
+D:\QTHCSDL\KhachHangs\KhachHangs\bin\Debug\EntityFramework.SqlServer.xml
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.csproj.AssemblyReference.cache
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.Properties.Resources.resources
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.csproj.GenerateResource.cache
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.csproj.CoreCompileInputs.cache
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.csproj.CopyComplete
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.exe
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.pdb
+D:\QTHCSDL\KhachHangs\KhachHangs\obj\Debug\KhachHangs.ThongTinKhachHang.resources

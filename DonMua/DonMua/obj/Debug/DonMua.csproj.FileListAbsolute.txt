@@ -1,0 +1,16 @@
+D:\QTHCSDL\DonMua\DonMua\bin\Debug\DonMua.exe.config
+D:\QTHCSDL\DonMua\DonMua\bin\Debug\DonMua.exe
+D:\QTHCSDL\DonMua\DonMua\bin\Debug\DonMua.pdb
+D:\QTHCSDL\DonMua\DonMua\bin\Debug\EntityFramework.dll
+D:\QTHCSDL\DonMua\DonMua\bin\Debug\EntityFramework.SqlServer.dll
+D:\QTHCSDL\DonMua\DonMua\bin\Debug\EntityFramework.xml
+D:\QTHCSDL\DonMua\DonMua\bin\Debug\EntityFramework.SqlServer.xml
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.csproj.AssemblyReference.cache
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.CTDH.resources
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.DonHangDaMua.resources
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.Properties.Resources.resources
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.csproj.GenerateResource.cache
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.csproj.CoreCompileInputs.cache
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.csproj.CopyComplete
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.exe
+D:\QTHCSDL\DonMua\DonMua\obj\Debug\DonMua.pdb

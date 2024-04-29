@@ -1,0 +1,15 @@
+D:\QTHCSDL\ThanhToan\ThanhToan\bin\Debug\ThanhToan.exe.config
+D:\QTHCSDL\ThanhToan\ThanhToan\bin\Debug\ThanhToan.exe
+D:\QTHCSDL\ThanhToan\ThanhToan\bin\Debug\ThanhToan.pdb
+D:\QTHCSDL\ThanhToan\ThanhToan\bin\Debug\EntityFramework.dll
+D:\QTHCSDL\ThanhToan\ThanhToan\bin\Debug\EntityFramework.SqlServer.dll
+D:\QTHCSDL\ThanhToan\ThanhToan\bin\Debug\EntityFramework.xml
+D:\QTHCSDL\ThanhToan\ThanhToan\bin\Debug\EntityFramework.SqlServer.xml
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\ThanhToan.Properties.Resources.resources
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\ThanhToan.DatHang.resources
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\DatHang.csproj.GenerateResource.cache
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\DatHang.csproj.CoreCompileInputs.cache
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\DatHang.csproj.CopyComplete
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\ThanhToan.exe
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\ThanhToan.pdb
+D:\QTHCSDL\ThanhToan\ThanhToan\obj\Debug\DatHang.csproj.AssemblyReference.cache
