@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="30cb0afde10848f3a2489e435358f3bd" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBanHangModel.ChiTietDonHang" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.DanhGia" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.DonHang" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.HangGiay" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.KhachHang" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.KhuyenMai" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.LoaiKhachHang" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.SanPham" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="QLBanHangModel.FK__ChiTietDo__MaDon__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__ChiTietDo__MaSan__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__DanhGia__MaKH__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__DanhGia__MaSanPh__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__DonHang__MaKH__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__SanPham__MaHangG__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__KhachHang__MaLoa__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.KhuyenMai_Hang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.KhuyenMai_SanPham" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

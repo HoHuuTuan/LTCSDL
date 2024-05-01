@@ -1,0 +1,16 @@
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\bin\Debug\DangGiaCacSP.exe.config
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\bin\Debug\DangGiaCacSP.exe
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\bin\Debug\DangGiaCacSP.pdb
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\bin\Debug\EntityFramework.dll
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\bin\Debug\EntityFramework.SqlServer.dll
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\bin\Debug\EntityFramework.xml
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\bin\Debug\EntityFramework.SqlServer.xml
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.csproj.AssemblyReference.cache
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.Properties.Resources.resources
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.XemSPCanDanhGia.resources
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.csproj.GenerateResource.cache
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.csproj.CoreCompileInputs.cache
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.csproj.CopyComplete
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.exe
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.pdb
+D:\QTHCSDL\DangGiaCacSP\DangGiaCacSP\obj\Debug\DangGiaCacSP.XemVaDanhGia.resources
