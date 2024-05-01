@@ -25,9 +25,25 @@ namespace ThanhToan
             {
 
                 var KH = context.KhachHangs.Where(a => a.TenDangNhap.Contains(tenDN)).FirstOrDefault();
-                if(KH !=null)
+                var DH = context.DonHangs.Where(b => b.MaDonHang == MaDHKM).FirstOrDefault();
+                if (KH !=null)
                 {
                     lbDiaChi.Text = KH.DiaChi;
+                    if (DH != null)
+                    {
+                        if (KH.MaLoaiKH == 1)
+                        {
+                            lbTienHang.Text = DH.TongTien.ToString();
+                            lbGiamGia.Text = (DH.TongTien * 0 / 100).ToString();
+                            lbTongTien.Text = (DH.TongTien - (DH.TongTien * 0 / 100)).ToString();
+                        }
+                        else if (KH.MaLoaiKH == 2)
+                        {
+                            lbTienHang.Text = DH.TongTien.ToString();
+                            lbGiamGia.Text = (DH.TongTien * 5 / 100).ToString();
+                            lbTongTien.Text = (DH.TongTien - (DH.TongTien * 5 / 100)).ToString();
+                        }
+                    }
                 }
                 var CTDH = context.ChiTietDonHangs.Where(p => p.MaDonHang == MaDHKM).ToList();
                 if (CTDH != null)
@@ -35,11 +51,6 @@ namespace ThanhToan
                     GVChiTietDonHang.DataSource = CTDH;
                     GVChiTietDonHang.Columns["DonHang"].Visible = false;
                     GVChiTietDonHang.Columns["SanPham"].Visible = false;
-                }
-                var DH = context.DonHangs.Where(b => b.MaDonHang == MaDHKM).FirstOrDefault();
-                if(DH !=null)
-                {
-                    lbTongTien.Text = DH.TongTien.ToString();
                 }
             }
 

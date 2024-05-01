@@ -39,6 +39,10 @@ namespace ThanhToan
             this.btThanhToan = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
             this.lbTongTien = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbGiamGia = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lbTienHang = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.GVChiTietDonHang)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -111,7 +115,7 @@ namespace ThanhToan
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 346);
+            this.label2.Location = new System.Drawing.Point(8, 422);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(196, 20);
             this.label2.TabIndex = 0;
@@ -120,7 +124,7 @@ namespace ThanhToan
             // btThanhToan
             // 
             this.btThanhToan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThanhToan.Location = new System.Drawing.Point(685, 373);
+            this.btThanhToan.Location = new System.Drawing.Point(685, 460);
             this.btThanhToan.Name = "btThanhToan";
             this.btThanhToan.Size = new System.Drawing.Size(102, 36);
             this.btThanhToan.TabIndex = 4;
@@ -131,7 +135,7 @@ namespace ThanhToan
             // btThoat
             // 
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThoat.Location = new System.Drawing.Point(577, 373);
+            this.btThoat.Location = new System.Drawing.Point(577, 461);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(102, 36);
             this.btThoat.TabIndex = 4;
@@ -143,22 +147,66 @@ namespace ThanhToan
             // 
             this.lbTongTien.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTongTien.Location = new System.Drawing.Point(210, 346);
+            this.lbTongTien.Location = new System.Drawing.Point(210, 423);
             this.lbTongTien.Name = "lbTongTien";
             this.lbTongTien.Size = new System.Drawing.Size(577, 23);
             this.lbTongTien.TabIndex = 1;
             this.lbTongTien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(8, 379);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(136, 20);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Số tiền được giảm";
+            // 
+            // lbGiamGia
+            // 
+            this.lbGiamGia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbGiamGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbGiamGia.Location = new System.Drawing.Point(210, 380);
+            this.lbGiamGia.Name = "lbGiamGia";
+            this.lbGiamGia.Size = new System.Drawing.Size(577, 23);
+            this.lbGiamGia.TabIndex = 1;
+            this.lbGiamGia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(9, 336);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(115, 20);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Tổng tiền hàng";
+            // 
+            // lbTienHang
+            // 
+            this.lbTienHang.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbTienHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTienHang.Location = new System.Drawing.Point(211, 337);
+            this.lbTienHang.Name = "lbTienHang";
+            this.lbTienHang.Size = new System.Drawing.Size(577, 23);
+            this.lbTienHang.TabIndex = 1;
+            this.lbTienHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // DatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 418);
+            this.ClientSize = new System.Drawing.Size(800, 504);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btThanhToan);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.GVChiTietDonHang);
+            this.Controls.Add(this.lbTienHang);
+            this.Controls.Add(this.lbGiamGia);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lbTongTien);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lbDiaChi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -189,6 +237,10 @@ namespace ThanhToan
         private System.Windows.Forms.Button btThanhToan;
         private System.Windows.Forms.Button btThoat;
         private System.Windows.Forms.Label lbTongTien;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbGiamGia;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbTienHang;
     }
 }
 
