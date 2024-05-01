@@ -43,6 +43,24 @@ namespace ThanhToan
                             lbGiamGia.Text = (DH.TongTien * 5 / 100).ToString();
                             lbTongTien.Text = (DH.TongTien - (DH.TongTien * 5 / 100)).ToString();
                         }
+                        else if (KH.MaLoaiKH == 3)
+                        {
+                            lbTienHang.Text = DH.TongTien.ToString();
+                            lbGiamGia.Text = (DH.TongTien * 7.5 / 100).ToString();
+                            lbTongTien.Text = (DH.TongTien - (DH.TongTien * 7.5 / 100)).ToString();
+                        }
+                        else if (KH.MaLoaiKH == 4)
+                        {
+                            lbTienHang.Text = DH.TongTien.ToString();
+                            lbGiamGia.Text = (DH.TongTien * 10 / 100).ToString();
+                            lbTongTien.Text = (DH.TongTien - (DH.TongTien * 10 / 100)).ToString();
+                        }
+                        else if (KH.MaLoaiKH == 5)
+                        {
+                            lbTienHang.Text = DH.TongTien.ToString();
+                            lbGiamGia.Text = (DH.TongTien * 15 / 100).ToString();
+                            lbTongTien.Text = (DH.TongTien - (DH.TongTien * 15 / 100)).ToString();
+                        }
                     }
                 }
                 var CTDH = context.ChiTietDonHangs.Where(p => p.MaDonHang == MaDHKM).ToList();
