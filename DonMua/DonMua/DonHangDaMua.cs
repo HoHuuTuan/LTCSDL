@@ -22,15 +22,17 @@ namespace DonMua
             using (var context = new QLBanHangEntities())
             {
                 var KH = context.KhachHangs.Where(p => p.TenDangNhap.Contains("abc1234")).FirstOrDefault();
-                var DH = context.DonHangs.Where(a => a.MaKH == KH.MaKH).FirstOrDefault();
-                if (DH != null)
-                {
-                    var result = context.DonHangs.ToList();
-                    GVDonHang.DataSource = result;
-                    GVDonHang.Columns["ChiTietDonHangs"].Visible = false;
-                    GVDonHang.Columns["KhachHang"].Visible = false;
-
-                }
+                var result = (from DonHang in context.DonHangs.Where(a => a.MaKH == KH.MaKH)
+                              join KhachHang in context.KhachHangs on DonHang.MaKH equals KhachHang.MaKH
+                              select new
+                              {
+                                  MaDH = DonHang.MaDonHang,
+                                  TenKH = KhachHang.Ho + " " + KhachHang.Ten,
+                                  TongTien = DonHang.TongTien,
+                                  NgayTao = DonHang.NgayTao,
+                                  TrangThai = DonHang.TrangThai
+                              }).ToList();
+                GVDonHang.DataSource = result;
             }
         }
 
@@ -49,7 +51,7 @@ namespace DonMua
             using (var context = new QLBanHangEntities())
             {
                 DataGridViewRow row = GVDonHang.SelectedRows[0];
-                int MaDH = Convert.ToInt16(row.Cells[0].Value.ToString());
+                int MaDH = Convert.ToInt32(row.Cells[0].Value.ToString());
                 var DH = context.DonHangs.Find(MaDH);
                 CTDH ctdh = new CTDH(DH.MaDonHang);
                 this.Hide();

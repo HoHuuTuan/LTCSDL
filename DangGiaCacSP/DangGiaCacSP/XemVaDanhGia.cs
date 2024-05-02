@@ -38,7 +38,11 @@ namespace DangGiaCacSP
         {
             using(var context = new QLBanHangEntities())
             {
-                if (rtxtDanhGia != null)
+                if (string.IsNullOrWhiteSpace(rtxtDanhGia.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập đánh giá");
+                }
+                else 
                 {
                     DanhGia newDG = new DanhGia
                     {
@@ -49,10 +53,6 @@ namespace DangGiaCacSP
                     context.DanhGias.Add(newDG);
                     context.SaveChanges();
                     MessageBox.Show("Đã thêm đánh giá");
-                }
-                else
-                {
-                    MessageBox.Show("Vui lòng nhập đánh giá");
                 }
             }
             ShowData();
@@ -65,13 +65,17 @@ namespace DangGiaCacSP
         {
             using (var context = new QLBanHangEntities())
             {
-                var DGSP = context.DanhGias.Where(p => p.MaSanPham.Value == MaSP).ToList();
-                if (DGSP != null)
-                {
-                    GVDanhGia.DataSource = DGSP;
-                    GVDanhGia.Columns["KhachHang"].Visible = false;
-                    GVDanhGia.Columns["SanPham"].Visible = false;
-                }
+                var result = (from DanhGia in context.DanhGias.Where(p => p.MaSanPham.Value == MaSP)
+                              join KhachHang in context.KhachHangs on DanhGia.MaKH equals KhachHang.MaKH
+                              select new
+                              {
+                                  MaSP = DanhGia.MaSanPham,
+                                  TenKH = KhachHang.Ho + " " + KhachHang.Ten,
+                                  NoiDung = DanhGia.NoiDung
+                              }).ToList();
+
+                GVDanhGia.DataSource = result;
+
             }
         }
     }

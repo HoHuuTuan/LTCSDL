@@ -31,7 +31,6 @@ namespace DonMua
         {
             this.btThoat = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,20 +54,11 @@ namespace DonMua
             this.dataGridView1.Size = new System.Drawing.Size(775, 236);
             this.dataGridView1.TabIndex = 2;
             // 
-            // label1
-            // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(15, 269);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 23);
-            this.label1.TabIndex = 4;
-            // 
             // CTDH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(804, 313);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -87,6 +77,5 @@ namespace DonMua
 
         private System.Windows.Forms.Button btThoat;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
     }
 }

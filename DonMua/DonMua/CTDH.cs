@@ -23,13 +23,17 @@ namespace DonMua
         {
             using (var context = new QLBanHangEntities())
             {
-                var CTDH = context.ChiTietDonHangs.Where(a => a.MaDonHang.Value == MaDH).ToList();
-                if (CTDH != null)
-                { 
-                    dataGridView1.DataSource = CTDH;
-                    dataGridView1.Columns["DonHang"].Visible = false;
-                    dataGridView1.Columns["SanPham"].Visible = false;
-                }
+                var result = (from ChiTietDonHang in context.ChiTietDonHangs .Where(a => a.MaDonHang.Value == MaDH)
+                              join SanPham in context.SanPhams on ChiTietDonHang.MaSanPham equals SanPham.MaSanPham
+                              select new
+                              {
+                                  MaDonHang = ChiTietDonHang.MaDonHang,
+                                  TenSanPham = SanPham.TenSP,
+                                  SoLuong = ChiTietDonHang.SoLuong,
+                                  TongTienSP = ChiTietDonHang.TongTienSP
+                              }).ToList();
+
+                dataGridView1.DataSource = result;
             }
         }
 
